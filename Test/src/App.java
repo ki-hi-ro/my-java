@@ -8,5 +8,8 @@ class App {
             int i = scanner.nextInt();
             city.add_men(i);
         }
+
+        System.out.println("================================");
+        Country country = new Country("日本", 125700000, 0, 64815079);
     }
 }
